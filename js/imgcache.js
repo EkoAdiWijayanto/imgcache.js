@@ -714,7 +714,7 @@ var ImgCache = {
 			return;
         }
 
-		Private.loadCachedFile($img, DomHelpers.getAttribute($img, 'src'), Private.setNewImgPath, success_callback, error_callback);
+		Private.loadCachedFile($img, DomHelpers.getAttribute($img, 'csrc'), Private.setNewImgPath, success_callback, error_callback);
 	};
 
 	// When the source url is not the 'src' attribute of the given img element
